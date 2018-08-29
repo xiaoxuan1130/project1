@@ -47,7 +47,7 @@ def login():
 
 
 def test():
-    content=u'Ta的粉丝(655)'
+    content=u'Ta的粉丝(6551)'
     content=re.findall(u'Ta的粉丝\((.+?)\)',content)
     print(content)
 
