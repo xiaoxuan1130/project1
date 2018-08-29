@@ -1,0 +1,66 @@
+{
+  "uid" : "5e06f088f430bcad",
+  "name" : "test_fix1.test_s1",
+  "fullName" : "case3.test_fix1.test_s1",
+  "historyId" : "81a322736ff5d8a4917eefca17b492c7",
+  "time" : {
+    "start" : 1535444482342,
+    "stop" : 1535444514341,
+    "duration" : 31999
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert '上海-悠悠 - 博客园' == '上海-悠悠'\n  - 上海-悠悠 - 博客园\n  + 上海-悠悠",
+  "statusTrace" : "browser = <selenium.webdriver.firefox.webdriver.WebDriver (session=\"019f9650-e5a8-49a5-aca6-5d2f1315c4d2\")>\n\n    def test_s1(browser):\n        driver=browser\n        driver.get(\"https://www.cnblogs.com/yoyoketang/\")\n        t=driver.title\n        print(t)\n>       assert  t==u\"上海-悠悠\"\nE       AssertionError: assert '上海-悠悠 - 博客园' == '上海-悠悠'\nE         - 上海-悠悠 - 博客园\nE         + 上海-悠悠\n\ntest_fix1.py:9: AssertionError",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "host",
+    "value" : "WIN-1N02C7QJU6E"
+  }, {
+    "name" : "language",
+    "value" : "cpython2"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "thread",
+    "value" : "12488-MainThread"
+  }, {
+    "name" : "suite",
+    "value" : "case3"
+  }, {
+    "name" : "testClass",
+    "value" : "case3"
+  }, {
+    "name" : "testMethod",
+    "value" : "test_fix1.test_s1"
+  }, {
+    "name" : "package",
+    "value" : "case3"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "5e06f088f430bcad.json",
+  "parameterValues" : [ ]
+}

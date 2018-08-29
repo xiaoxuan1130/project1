@@ -1,0 +1,66 @@
+{
+  "uid" : "ea467c190ec17c74",
+  "name" : "test_class.Testclass.test_two",
+  "fullName" : "case3.test_class.Testclass.test_two",
+  "historyId" : "8e298187c1b5eb071c68df926fa9986e",
+  "time" : {
+    "start" : 1535444482066,
+    "stop" : 1535444482319,
+    "duration" : 253
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert False\n +  where False = hasattr('hello', 'check')",
+  "statusTrace" : "self = <case3.test_class.Testclass instance at 0x0000000003CCD188>\n\n    def test_two(self):\n        x=\"hello\"\n>       assert hasattr(x,'check')\nE       AssertionError: assert False\nE        +  where False = hasattr('hello', 'check')\n\ntest_class.py:10: AssertionError",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "host",
+    "value" : "WIN-1N02C7QJU6E"
+  }, {
+    "name" : "language",
+    "value" : "cpython2"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "thread",
+    "value" : "12488-MainThread"
+  }, {
+    "name" : "suite",
+    "value" : "case3"
+  }, {
+    "name" : "testClass",
+    "value" : "case3"
+  }, {
+    "name" : "testMethod",
+    "value" : "test_class.Testclass.test_two"
+  }, {
+    "name" : "package",
+    "value" : "case3"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "ea467c190ec17c74.json",
+  "parameterValues" : [ ]
+}

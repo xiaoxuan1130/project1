@@ -1,0 +1,6 @@
+"Status","Name","Duration in ms","Description"
+"failed","case3.test_fix1.test_s1","31999",""
+"passed","case3.test_class.Testclass.test_one","11422",""
+"passed","case3.test_class.Testclass.test_three","2",""
+"passed","case3.test_fix2.test_s1","1128",""
+"failed","case3.test_class.Testclass.test_two","253",""

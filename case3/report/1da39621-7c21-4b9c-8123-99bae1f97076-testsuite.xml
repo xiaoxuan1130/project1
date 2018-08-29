@@ -1,0 +1,97 @@
+<ns0:test-suite xmlns:ns0="urn:model.allure.qatools.yandex.ru" start="1535444470502" stop="1535444515472">
+  <name>case3</name>
+  <labels/>
+  <test-cases>
+    <test-case start="1535444470502" status="passed" stop="1535444481924">
+      <name>test_class.Testclass.test_one</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="12488-MainThread"/>
+        <label name="host" value="WIN-1N02C7QJU6E"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython2"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1535444482066" status="failed" stop="1535444482319">
+      <name>test_class.Testclass.test_two</name>
+      <failure>
+        <message>AssertionError: assert False
+ +  where False = hasattr('hello', 'check')</message>
+        <stack-trace>self = &lt;case3.test_class.Testclass instance at 0x0000000003CCD188&gt;
+
+    def test_two(self):
+        x="hello"
+&gt;       assert hasattr(x,'check')
+E       AssertionError: assert False
+E        +  where False = hasattr('hello', 'check')
+
+test_class.py:10: AssertionError</stack-trace>
+      </failure>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="12488-MainThread"/>
+        <label name="host" value="WIN-1N02C7QJU6E"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython2"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1535444482339" status="passed" stop="1535444482341">
+      <name>test_class.Testclass.test_three</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="12488-MainThread"/>
+        <label name="host" value="WIN-1N02C7QJU6E"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython2"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1535444482342" status="failed" stop="1535444514341">
+      <name>test_fix1.test_s1</name>
+      <failure>
+        <message>AssertionError: assert '上海-悠悠 - 博客园' == '上海-悠悠'
+  - 上海-悠悠 - 博客园
+  + 上海-悠悠</message>
+        <stack-trace>browser = &lt;selenium.webdriver.firefox.webdriver.WebDriver (session="019f9650-e5a8-49a5-aca6-5d2f1315c4d2")&gt;
+
+    def test_s1(browser):
+        driver=browser
+        driver.get("https://www.cnblogs.com/yoyoketang/")
+        t=driver.title
+        print(t)
+&gt;       assert  t==u"上海-悠悠"
+E       AssertionError: assert '上海-悠悠 - 博客园' == '上海-悠悠'
+E         - 上海-悠悠 - 博客园
+E         + 上海-悠悠
+
+test_fix1.py:9: AssertionError</stack-trace>
+      </failure>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="12488-MainThread"/>
+        <label name="host" value="WIN-1N02C7QJU6E"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython2"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1535444514344" status="passed" stop="1535444515472">
+      <name>test_fix2.test_s1</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="12488-MainThread"/>
+        <label name="host" value="WIN-1N02C7QJU6E"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython2"/>
+      </labels>
+      <steps/>
+    </test-case>
+  </test-cases>
+</ns0:test-suite>
