@@ -74,10 +74,10 @@ if __name__ == '__main__':
     report_path=os.path.join(cur_path,"report")
     new_path=get_report_file(report_path)
 
-    # from config import readConfig
-    # sender=readConfig.sender
-    # psw=readConfig.psw
-    # smtp_server=readConfig.smtp_server
-    # port=readConfig.port
-    # receiver=readConfig.receiver
-    # send_mail(sender, psw, receiver, smtp_server, new_path, port)
+    from config import readConfig
+    sender=readConfig.sender
+    psw=readConfig.psw
+    smtp_server=readConfig.smtp_server
+    port=readConfig.port
+    receiver=readConfig.receiver
+    send_mail(sender, psw, receiver, smtp_server, new_path, port)
